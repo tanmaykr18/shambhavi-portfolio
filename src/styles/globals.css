@@ -1,0 +1,227 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary: #2563EB;
+    --color-secondary: #1E40AF;
+    --color-accent: #F59E0B;
+    --color-background: #F8FAFC;
+    --color-text: #1F2937;
+  }
+
+  * {
+    border-color: rgb(229 231 235);
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
+
+  /* Button state fixes */
+  button:focus {
+    outline: none !important;
+  }
+
+  button:focus-visible {
+    outline: 2px solid #2563EB;
+    outline-offset: 2px;
+  }
+
+  button:active {
+    outline: none !important;
+  }
+
+  /* Input focus states */
+  input:focus,
+  textarea:focus,
+  select:focus {
+    outline: none !important;
+    border-color: #2563EB;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+  }
+}
+
+@layer components {
+  /* Navigation buttons */
+  .nav-button {
+    background-color: transparent;
+    transition: all 0.3s ease;
+  }
+
+  .nav-button:hover {
+    background-color: rgba(37, 99, 235, 0.1);
+    transform: translateY(-2px);
+  }
+
+  .nav-button:active {
+    background-color: rgba(37, 99, 235, 0.2) !important;
+    transform: translateY(0);
+  }
+
+  .nav-button.active {
+    background-color: #2563EB !important;
+    color: white !important;
+  }
+
+  /* Primary action buttons */
+  .btn-primary {
+    background-color: #2563EB;
+    color: white;
+    transition: all 0.3s ease;
+    @apply font-medium py-3 px-6 rounded-lg shadow-lg;
+  }
+
+  .btn-primary:hover {
+    background-color: #1E40AF;
+    transform: scale(1.05);
+    @apply shadow-xl;
+  }
+
+  .btn-primary:active {
+    background-color: #1E3A8A !important;
+    transform: scale(0.98);
+    @apply shadow-md;
+  }
+
+  /* Secondary buttons */
+  .btn-secondary {
+    background-color: white;
+    border: 2px solid #2563EB;
+    color: #2563EB;
+    transition: all 0.3s ease;
+    @apply font-medium py-3 px-6 rounded-lg;
+  }
+
+  .btn-secondary:hover {
+    background-color: #2563EB;
+    color: white;
+    transform: scale(1.05);
+  }
+
+  .btn-secondary:active {
+    background-color: #1E40AF !important;
+    color: white !important;
+    border-color: #1E40AF;
+    transform: scale(0.95);
+  }
+
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24;
+  }
+
+  .card {
+    @apply bg-white rounded-lg shadow-lg p-6 transition-all duration-300 hover:shadow-xl;
+  }
+
+  /* Ensure card always has white background */
+  .card,
+  .card-hover {
+    background-color: white;
+  }
+
+  /* Card hover with scale */
+  .card-hover {
+    transition: all 0.3s ease;
+  }
+
+  .card-hover:hover {
+    transform: scale(1.05) translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    background-color: white;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(to right, var(--color-primary), var(--color-accent));
+  }
+
+  /* Scroll Animation Base Styles */
+  .scroll-animate {
+    opacity: 0;
+    transform: scale(0.8) translateY(40px);
+    transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .scroll-animate.in-view {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+
+  /* Scale animation - starts small, grows to normal size */
+  .scale-in {
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+
+  .scale-in.in-view {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  /* Staggered animation for lists */
+  .scroll-animate-stagger:nth-child(1) { transition-delay: 0.1s; }
+  .scroll-animate-stagger:nth-child(2) { transition-delay: 0.2s; }
+  .scroll-animate-stagger:nth-child(3) { transition-delay: 0.3s; }
+  .scroll-animate-stagger:nth-child(4) { transition-delay: 0.4s; }
+  .scroll-animate-stagger:nth-child(5) { transition-delay: 0.5s; }
+  .scroll-animate-stagger:nth-child(6) { transition-delay: 0.6s; }
+
+  /* Skill bar animation on scroll */
+  .skill-bar {
+    width: 0%;
+    transition: width 1.5s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .skill-bar.in-view {
+    width: var(--skill-percentage);
+  }
+
+  /* Pulse effect on scroll */
+  @keyframes pulse-scale {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+  }
+
+  .pulse-on-view.in-view {
+    animation: pulse-scale 2s ease-in-out infinite;
+  }
+
+  /* Smooth reveal from bottom */
+  .reveal-bottom {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .reveal-bottom.in-view {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Smooth reveal with rotation */
+  .reveal-rotate {
+    opacity: 0;
+    transform: scale(0.8) rotate(-5deg);
+    transition: all 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+
+  .reveal-rotate.in-view {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+  }
+}
+

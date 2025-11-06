@@ -1,0 +1,152 @@
+{
+  "personal": {
+    "name": "Tanmay Kumar",
+    "title": "MERN Stack Developer & Founding Engineer",
+    "email": "tanmaykumar18102002@gmail.com",
+    "location": "Ghaziabad, Uttar Pradesh, India",
+    "linkedin": "https://linkedin.com/in/tanmay-kumar181002",
+    "github": "https://github.com/tanmaykr18",
+    "tagline": "Building scalable restaurant management systems and AI-powered applications",
+    "bio": "I am a MERN stack developer and problem solver focused on building scalable restaurant management systems and AI-powered applications. I have extensive experience in backend development, database operations, API authentication, and GenAI integration. I specialize in creating data-driven solutions that improve operational efficiency and decision-making in fast-moving startup environments where ownership and impact are important.",
+    "avatar": "/images/profile.jpg",
+    "resume": "/documents/tanmay-kumar-resume.pdf"
+  },
+  "skills": {
+    "languages": ["JavaScript", "Python","C++"],
+    "frameworks": ["Node.js", "React.js", "Express.js", "MongoDB", "RESTful APIs", "Bootstrap", "Redux"],
+    "tools": ["MongoDB Atlas", "Google Cloud Storage", "Gemini API", "GitHub", "VS Code", "JWT"],
+    "backend": ["Database Operations", "API Development", "Authentication Systems", "Data Processing", "Server Architecture"],
+    "ai": ["Gemini API Integration", "Prompt Engineering", "Video Generation (Veo3)", "GenAI Applications", "OCR Processing", "Automated Content Creation"],
+    "soft": ["Problem Solving", "Team Collaboration", "Quick Learning", "Analytical Thinking", "Communication"]
+  },
+  "experience": [
+    {
+      "id": 1,
+      "title": "Founding Engineer",
+      "company": "cactus.ai",
+      "location": "Remote",
+      "startDate": "Jun 2024",
+      "endDate": "Present",
+      "current": true,
+      "description": "Architected comprehensive restaurant management platform with full-stack MERN implementation. Built advanced invoice extraction system using Gemini OCR for automated vendor data processing and ingredient mapping. Engineered recipe automation system by fetching POS menu data and implementing Gemini context caching to generate complete recipes with ingredients, quantities, and cooking instructions. Developed inventory management system with multi-unit conversions and automated ingredient tracking based on POS sales integration. Designed super admin panel for global tenant management and centralized restaurant data administration. Engineered robust backend APIs with Node.js and Express.js, implementing secure authentication and database operations. Created dynamic MongoDB collections with automated workflows and interactive dashboards for real-time financial metrics and profit analytics using React.js.",
+      "technologies": ["Node.js", "React.js", "MongoDB", "Express.js", "Gemini API", "Google Cloud Storage"],
+      "achievements": [
+        "Built comprehensive restaurant management platform serving multiple restaurants",
+        "Automated invoice processing reducing manual data entry by 90%",
+        "Implemented AI-powered recipe generation system",
+        "Developed inventory management with real-time tracking",
+        "Created super admin panel for multi-tenant management"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Advanced Invoice Extraction System",
+      "shortDescription": "AI-powered invoice processing system for restaurant supply chain automation",
+      "description": "Built comprehensive invoice processing system using Node.js and Gemini OCR for restaurant supply chain automation. Implemented vendor-specific parsing rules with dynamic MongoDB collections and ingredient mapping algorithms. Created context caching system with Gemini API for optimized data extraction and automated JSON output processing. Developed column mapping system for various vendor formats, reducing manual data entry by 90%.",
+      "technologies": ["Node.js", "MongoDB", "Gemini API", "Express.js", "OCR Processing"],
+      "category": "AI/Backend",
+      "featured": true,
+      "image": "/images/projects/invoice-system.jpg",
+      "liveUrl": "#",
+      "githubUrl": "#",
+      "features": [
+        "Vendor-specific invoice parsing",
+        "Automated ingredient mapping",
+        "Context caching with Gemini API",
+        "Dynamic MongoDB collections",
+        "90% reduction in manual data entry"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "AI-Powered Video Generation System",
+      "shortDescription": "Sophisticated prompt generation system for Veo3 video creation",
+      "description": "Engineered sophisticated prompt generation system for Veo3 video creation using advanced prompts. Integrated Gemini API for automated content transformation and JSON output processing. Built dynamic video generation workflows for product visualizations and marketing content, achieving 85% automation in content creation pipeline.",
+      "technologies": ["JavaScript", "Node.js", "Gemini API", "Veo3", "AI Prompting"],
+      "category": "AI/Frontend",
+      "featured": true,
+      "image": "/images/projects/video-generation.jpg",
+      "liveUrl": "#",
+      "githubUrl": "#",
+      "features": [
+        "Advanced AI prompt engineering",
+        "Automated content transformation",
+        "Video generation workflows",
+        "Product visualization system",
+        "85% automation achievement"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Restaurant Management Dashboard",
+      "shortDescription": "Comprehensive MERN stack application for restaurant operations",
+      "description": "Developed comprehensive MERN stack application for restaurant operations management. Implemented real-time analytics for food costs, menu pricing, and profit tracking. Built secure authentication system with role-based access control. Created responsive frontend with React.js and robust backend APIs with Express.js and MongoDB.",
+      "technologies": ["MongoDB", "Express.js", "React.js", "Node.js", "JWT", "Chart.js"],
+      "category": "Full Stack",
+      "featured": true,
+      "image": "/images/projects/restaurant-dashboard.jpg",
+      "liveUrl": "#",
+      "githubUrl": "#",
+      "features": [
+        "Real-time analytics dashboard",
+        "Food cost tracking",
+        "Menu pricing optimization",
+        "Role-based authentication",
+        "Responsive design"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Voice-Controlled AI Chatbot",
+      "shortDescription": "Interactive chatbot with Gemini AI integration and voice features",
+      "description": "Developed interactive chatbot using vanilla JavaScript with Gemini AI API integration. Implemented speech-to-text functionality and text-to-speech output with dark mode toggle. Created auto-resizing interface with dynamic API response handling for seamless user experience.",
+      "technologies": ["JavaScript", "HTML5", "CSS3", "Gemini API", "Web Speech API"],
+      "category": "AI/Frontend",
+      "featured": false,
+      "image": "/images/projects/ai-chatbot.jpg",
+      "liveUrl": "#",
+      "githubUrl": "#",
+      "features": [
+        "Voice recognition integration",
+        "Text-to-speech output",
+        "Dark mode support",
+        "Auto-resizing interface",
+        "Real-time AI responses"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B. Tech - Computer Science and Engineering",
+      "institution": "SRM Institute of Science and Technology, Delhi NCR Campus",
+      "startDate": "Sep 2020",
+      "endDate": "Jul 2024",
+      "cgpa": "8.15",
+      "description": "Focused on software engineering, data structures, algorithms, and web development."
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Introduction to Front-End Development by Meta",
+      "issuer": "Coursera",
+      "date": "Dec 2023",
+      "credential": "#"
+    },
+    {
+      "title": "Programming with JavaScript by Meta", 
+      "issuer": "Coursera",
+      "date": "Nov 2023",
+      "credential": "#"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Hackathon Winner - IIT Patna",
+      "description": "Developed Chrome extension with AI-powered text summarization and code explanation features using Gemini API. Implemented voice functionality for content reading and instant webpage text analysis.",
+      "date": "2024"
+    }
+  ]
+}
+

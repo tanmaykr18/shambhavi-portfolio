@@ -54,11 +54,21 @@ const ContactForm = () => {
     }
 
     try {
-      // Replace these with your EmailJS credentials
-      // Get them from: https://www.emailjs.com/
-      const serviceId = 'YOUR_SERVICE_ID';
-      const templateId = 'YOUR_TEMPLATE_ID';
-      const userId = 'YOUR_USER_ID';
+      // EmailJS credentials - Get these from https://www.emailjs.com/
+      // After setting up EmailJS, replace these values
+      const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID || 'YOUR_SERVICE_ID';
+      const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID || 'YOUR_TEMPLATE_ID';
+      const userId = import.meta.env.VITE_EMAILJS_USER_ID || 'YOUR_USER_ID';
+
+      // Check if credentials are set
+      if (serviceId === 'YOUR_SERVICE_ID' || templateId === 'YOUR_TEMPLATE_ID' || userId === 'YOUR_USER_ID') {
+        setStatus({
+          type: 'error',
+          message: 'Email service not configured. Please contact me directly via email.',
+        });
+        setLoading(false);
+        return;
+      }
 
       await emailjs.send(
         serviceId,
@@ -100,7 +110,6 @@ const ContactForm = () => {
       initial="initial"
       animate="animate"
       variants={slideUp}
-      className="card max-w-2xl mx-auto"
     >
       <form onSubmit={handleSubmit} className="space-y-6">
         {/* Name Input */}

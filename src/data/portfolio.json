@@ -127,7 +127,7 @@
       "technologies": ["Python", "Pandas", "Scikit-learn", "Matplotlib"],
       "category": "Machine Learning",
       "featured": true,
-      "image": "/images/projects/easymed.jpg",
+      "image": "/images/projects/easymed.png",
       "liveUrl": "#",
       "githubUrl": "https://github.com/Shambhavi-2713/EasyMed-OnlineHealthcarePortal",
       "features": [
@@ -146,7 +146,7 @@
       "technologies": ["Python", "requests", "BeautifulSoup", "NLTK", "pandas", "openpyxl"],
       "category": "NLP / Data Processing",
       "featured": true,
-      "image": "/images/projects/url-analyzer.jpg",
+      "image": "/images/projects/url-analyzer.png",
       "liveUrl": "#",
       "githubUrl": "https://github.com/Shambhavi-2713/URL-Text-Analyzer",
       "features": [
@@ -165,7 +165,7 @@
       "technologies": ["Python", "Pandas", "Scikit-learn", "Matplotlib"],
       "category": "Machine Learning",
       "featured": false,
-      "image": "/images/projects/wine-quality.jpg",
+      "image": "/images/projects/wine-quality.png",
       "liveUrl": "#",
       "githubUrl": "https://github.com/Shambhavi-2713/Wine-Quality",
       "features": [
@@ -184,7 +184,7 @@
       "technologies": ["Python", "Tkinter", "Pygame"],
       "category": "Software / GUI Application",
       "featured": false,
-      "image": "/images/projects/music-player.jpg",
+      "image": "/images/projects/music-player.png",
       "liveUrl": "#",
       "githubUrl": "https://github.com/Shambhavi-2713/Music-Player",
       "features": [
@@ -203,7 +203,7 @@
       "technologies": ["React.js", "JavaScript", "Bootstrap"],
       "category": "Frontend / Web Application",
       "featured": false,
-      "image": "/images/projects/attendance-system.jpg",
+      "image": "/images/projects/attendance-system.png",
       "liveUrl": "#",
       "githubUrl": "https://github.com/Shambhavi-2713/Attendance-System",
       "features": [
@@ -222,7 +222,7 @@
       "technologies": ["HTML", "CSS", "JavaScript"],
       "category": "Web Application",
       "featured": false,
-      "image": "/images/projects/vehicle-converter.jpg",
+      "image": "/images/projects/vehicle-converter.png",
       "liveUrl": "#",
       "githubUrl": "https://github.com/Shambhavi-2713/Vehicle-Transport-Converter",
       "features": [

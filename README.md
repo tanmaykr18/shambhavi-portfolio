@@ -1,6 +1,6 @@
-# Tanmay Kumar's Portfolio
+# Shambhavi Singh's Portfolio
 
-A modern, responsive personal portfolio website built with React + Vite, showcasing MERN stack development expertise and AI integration skills.
+A modern, responsive personal portfolio website built with React + Vite, showcasing LLM & Python engineering expertise, machine learning projects, and data analysis skills.
 
 ## 🚀 Features
 
@@ -26,8 +26,8 @@ A modern, responsive personal portfolio website built with React + Vite, showcas
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd tanmay-portfolio
+git clone https://github.com/tanmaykr18/shambhavi-portfolio.git
+cd shambhavi-portfolio
 ```
 
 2. Install dependencies:
@@ -38,11 +38,11 @@ npm install
 3. Configure EmailJS (Optional):
    - Sign up at [EmailJS](https://www.emailjs.com/)
    - Create an email service and template
-   - Update the credentials in `src/components/contact/ContactForm.jsx`:
-     ```javascript
-     const serviceId = 'YOUR_SERVICE_ID';
-     const templateId = 'YOUR_TEMPLATE_ID';
-     const userId = 'YOUR_USER_ID';
+   - Add environment variables in `.env` file or Vercel:
+     ```
+     VITE_EMAILJS_SERVICE_ID=your_service_id
+     VITE_EMAILJS_TEMPLATE_ID=your_template_id
+     VITE_EMAILJS_PUBLIC_KEY=your_public_key
      ```
 
 4. Start the development server:
@@ -81,14 +81,15 @@ src/
 
 ### Update Personal Information
 
-Edit `src/data/portfolio.json` to update:
-- Personal details (name, email, phone, etc.)
-- Skills and expertise
+All content is dynamically loaded from `src/data/portfolio.json`. Simply edit this file to update:
+- Personal details (name, email, location, etc.)
+- Skills and expertise categories
 - Work experience
-- Projects
+- Projects (with images)
 - Education
 - Certifications
-- Achievements
+
+The entire portfolio is data-driven, so any changes to the JSON file will automatically reflect in the UI.
 
 ### Update Colors
 
@@ -105,13 +106,13 @@ colors: {
 
 Place your images in the `public/images/` directory and update the paths in `portfolio.json`:
 - Profile picture: `/images/profile.jpg`
-- Project images: `/images/projects/[project-name].jpg`
+- Project images: `/images/projects/[project-name].png` (or `.jpg`)
 
 
 ## 📄 Pages
 
-1. **Home** - Hero section, brief about, featured projects, skills preview
-2. **About** - Detailed bio, education, certifications, achievements
+1. **Home** - Hero section, brief about, featured projects, skills preview with interactive modals
+2. **About** - Detailed bio, education, certifications
 3. **Projects** - All projects with filtering and detailed modals
 4. **Experience** - Work timeline with detailed job descriptions
 5. **Contact** - Contact form, social links, and location
@@ -159,10 +160,10 @@ MIT License - feel free to use this template for your own portfolio!
 
 ## 👤 Contact
 
-**Tanmay Kumar**
-- Email: tanmaykumar18102002@gmail.com
-- LinkedIn: [linkedin.com/in/tanmay-kumar](https://linkedin.com/in/tanmay-kumar)
-- GitHub: [github.com/tanmay-kumar](https://github.com/tanmay-kumar)
+**Shambhavi Singh**
+- Email: shambhavisingh2713@gmail.com
+- LinkedIn: [linkedin.com/in/shambhavi-singh-b99234212](https://linkedin.com/in/shambhavi-singh-b99234212)
+- GitHub: [github.com/Shambhavi-2713](https://github.com/Shambhavi-2713)
 
 ---
 

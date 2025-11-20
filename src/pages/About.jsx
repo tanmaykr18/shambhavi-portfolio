@@ -7,7 +7,7 @@ import { pageTransition, slideUp, staggerContainer, staggerItem } from '../utils
 
 const About = () => {
   const [ref, inView] = useScrollAnimation();
-  const { personal, education, certifications, achievements } = portfolioData;
+  const { personal, education, certifications /*, achievements */ } = portfolioData;
 
   return (
     <motion.div
@@ -76,8 +76,8 @@ const About = () => {
         </motion.div>
       </section>
 
-      {/* Achievements Section */}
-      <section className="section-container bg-white">
+      {/* Achievements Section - Commented Out */}
+      {/* <section className="section-container bg-white">
         <motion.div
           initial="initial"
           animate="animate"
@@ -111,7 +111,7 @@ const About = () => {
             ))}
           </div>
         </motion.div>
-      </section>
+      </section> */}
     </motion.div>
   );
 };

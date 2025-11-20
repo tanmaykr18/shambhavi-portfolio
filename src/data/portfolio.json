@@ -1,165 +1,236 @@
 {
   "personal": {
-    "name": "Tanmay Kumar",
-    "title": "MERN Stack Developer & Founding Engineer",
-    "email": "tanmaykumar18102002@gmail.com",
-    "location": "Ghaziabad, Uttar Pradesh, India",
-    "linkedin": "https://linkedin.com/in/tanmay-kumar181002",
-    "github": "https://github.com/tanmaykr18",
-    "tagline": "Building scalable restaurant management systems and AI-powered applications",
-    "bio": "I am a MERN stack developer and problem solver focused on building scalable restaurant management systems and AI-powered applications. I have extensive experience in backend development, database operations, API authentication, and GenAI integration. I specialize in creating data-driven solutions that improve operational efficiency and decision-making in fast-moving startup environments where ownership and impact are important.",
+    "name": "Shambhavi Singh",
+    "title": "LLM & Python Engineer",
+    "email": "shambhavisingh2713@gmail.com",
+    "location": "Chhapra, Saran, Bihar, India",
+    "linkedin": "https://linkedin.com/in/shambhavi-singh-b99234212",
+    "github": "https://github.com/Shambhavi-2713",
+    "tagline": "LLM Fine-Tuning • Model Evaluation • Python & Data Analysis",
+    "bio": "I am an LLM & Python Engineer with hands-on experience in Supervised Fine-Tuning (SFT), RLHF-based model evaluation, and high-quality dataset preparation. I specialize in prompt engineering, analyzing model outputs, improving reasoning quality, and building data-driven ML applications. My background includes machine learning projects in healthcare, text analysis, and predictive analytics, supported by strong skills in Python, Pandas, Scikit-learn, and React.js.",
     "avatar": "/images/profile.jpg",
     "resume": "/documents/tanmay-kumar-resume.pdf"
   },
   "skillCategories": [
-    { "id": "languages", "title": "Languages", "icon": "💻" },
-    { "id": "frameworks", "title": "Frameworks", "icon": "🚀" },
-    { "id": "tools", "title": "Tools", "icon": "🛠️" },
-    { "id": "backend", "title": "Backend", "icon": "⚙️" },
-    { "id": "ai", "title": "AI/ML", "icon": "🤖" },
-    { "id": "soft", "title": "Soft Skills", "icon": "💡" }
+    { "id": "languages", "title": "Languages & Databases", "icon": "💻" },
+    { "id": "frameworks", "title": "Python Libraries & Machine Learning", "icon": "🚀" },
+    { "id": "tools", "title": "Data Skills", "icon": "🛠️" },
+    { "id": "backend", "title": "LLM & NLP", "icon": "⚙️" },
+    { "id": "ai", "title": "Developer Tools & Technologies", "icon": "🤖" },
+    { "id": "soft", "title": "Core CS Concepts & Testing", "icon": "💡" }
   ],
   "skills": {
     "languages": [
-      { "name": "JavaScript", "icon": "💻", "description": "Expert in modern ES6+ JavaScript for full-stack development. Proficient in async programming, promises, and building scalable applications." },
-      { "name": "Python", "icon": "🐍", "description": "Strong command of Python for backend development, data processing, and AI/ML integration with clean, maintainable code." },
-      { "name": "C++", "icon": "⚡", "description": "Solid foundation in C++ for problem-solving, data structures, and algorithmic thinking with focus on performance optimization." }
-    ],
+      { "name": "Python", "icon": "🐍", "description": "Primary programming language used for data processing, ML workflows, LLM evaluation and automation." },
+      { "name": "MySQL / PLSQL", "icon": "🗄️", "description": "Experience in relational databases, writing queries, joins, and performing structured data operations." }
+  ],
     "frameworks": [
-      { "name": "Node.js", "icon": "🟢", "description": "Building high-performance server-side applications with Node.js runtime. Expert in event-driven architecture and non-blocking I/O." },
-      { "name": "React.js", "icon": "⚛️", "description": "Creating dynamic, responsive user interfaces with React. Proficient in hooks, state management, and component-based architecture." },
-      { "name": "Express.js", "icon": "🚂", "description": "Developing RESTful APIs and backend services using Express.js with middleware, routing, and error handling." },
-      { "name": "MongoDB", "icon": "🍃", "description": "Designing and optimizing NoSQL databases with MongoDB. Expert in schema design, aggregation pipelines, and indexing." },
-      { "name": "RESTful APIs", "icon": "🔌", "description": "Architecting and implementing RESTful API endpoints with proper HTTP methods, status codes, and best practices." },
-      { "name": "Bootstrap", "icon": "🎨", "description": "Crafting responsive, mobile-first web designs using Bootstrap framework for rapid UI development." },
-      { "name": "Redux", "icon": "🔄", "description": "Managing complex application state with Redux for predictable state updates and centralized data flow." }
-    ],
+      { "name": "NumPy", "icon": "🔢", "description": "Efficient numerical computation and matrix operations." },
+      { "name": "Pandas", "icon": "📊", "description": "Data manipulation, cleaning, and preprocessing workflows." },
+      { "name": "Matplotlib", "icon": "📈", "description": "Data visualization and graphical insights for analysis." },
+      { "name": "Scikit-learn", "icon": "📦", "description": "Model training, evaluation, and ML algorithms implementation." },
+      { "name": "PyTorch", "icon": "🔥", "description": "Neural network framework and LLM model understanding." },
+      { "name": "Machine Learning", "icon": "🤖", "description": "End-to-end ML pipeline: data preparation, training, tuning, evaluation." }
+  ],
     "tools": [
-      { "name": "MongoDB Atlas", "icon": "☁️", "description": "Managing cloud-based MongoDB databases with Atlas. Expert in cluster configuration, monitoring, and backup strategies." },
-      { "name": "Google Cloud Storage", "icon": "📦", "description": "Implementing scalable file storage solutions using Google Cloud Storage with secure upload and retrieval systems." },
-      { "name": "Gemini API", "icon": "🤖", "description": "Integrating Google's Gemini AI for advanced features like OCR, content generation, and intelligent automation." },
-      { "name": "GitHub", "icon": "🐙", "description": "Version control and collaboration using Git and GitHub. Proficient in branching strategies, PR workflows, and CI/CD." },
-      { "name": "VS Code", "icon": "💼", "description": "Efficient development workflow with VS Code. Utilizing extensions, debugging tools, and productivity features." },
-      { "name": "JWT", "icon": "🔐", "description": "Implementing secure authentication and authorization using JSON Web Tokens for stateless session management." }
-    ],
+      { "name": "Data Analysis", "icon": "🔍", "description": "Extracting meaningful patterns from structured and unstructured data." },
+      { "name": "Data Mining", "icon": "⛏️", "description": "Identifying hidden relationships and trends in datasets." },
+      { "name": "Data Cleaning", "icon": "🧹", "description": "Removing noise and inconsistencies for high-quality datasets." },
+      { "name": "Data Visualization", "icon": "📊", "description": "Creating visual representations for insights and decision-making." }
+  ],
     "backend": [
-      { "name": "Database Operations", "icon": "🗄️", "description": "Designing efficient database schemas and performing CRUD operations with optimized queries and transaction management." },
-      { "name": "API Development", "icon": "🔧", "description": "Creating robust, scalable APIs with proper documentation, error handling, and security best practices." },
-      { "name": "Authentication Systems", "icon": "🔑", "description": "Building secure authentication flows with JWT, OAuth, and session management for user identity verification." },
-      { "name": "Data Processing", "icon": "📊", "description": "Processing and transforming large datasets with efficient algorithms for data validation and manipulation." },
-      { "name": "Server Architecture", "icon": "🏗️", "description": "Designing scalable server architectures with microservices, load balancing, and performance optimization." }
-    ],
+      { "name": "Prompt Engineering", "icon": "✍️", "description": "Designing structured prompts to control model behavior and output quality." },
+      { "name": "Model Evaluation", "icon": "🧠", "description": "Reviewing and analyzing LLM responses for correctness and reasoning." },
+      { "name": "Supervised Fine-Tuning (SFT)", "icon": "⚙️", "description": "Preparing and curating datasets to align model behavior with requirements." },
+      { "name": "RLHF", "icon": "🎛️", "description": "Reinforcement Learning from Human Feedback to optimize model alignment." }
+  ],
     "ai": [
-      { "name": "Gemini API Integration", "icon": "🧠", "description": "Integrating Google's Gemini AI models for intelligent automation, content generation, and advanced processing." },
-      { "name": "Prompt Engineering", "icon": "✍️", "description": "Crafting effective prompts for AI models to achieve optimal results with context management and refinement." },
-      { "name": "Video Generation (Veo3)", "icon": "🎬", "description": "Implementing AI-powered video generation using Veo3 for automated content creation and visual storytelling." },
-      { "name": "GenAI Applications", "icon": "🚀", "description": "Building generative AI applications that leverage large language models for innovative solutions." },
-      { "name": "OCR Processing", "icon": "📸", "description": "Extracting text from images and documents using OCR technology for automated data entry and processing." },
-      { "name": "Automated Content Creation", "icon": "✨", "description": "Developing systems for automated content generation using AI, reducing manual effort and improving efficiency." }
-    ],
+      { "name": "VS Code", "icon": "💻", "description": "Primary development and debugging environment." },
+      { "name": "Git", "icon": "🐙", "description": "Version control and collaborative development workflows." },
+      { "name": "DBMS/RDBMS", "icon": "🗃️", "description": "Working with structured data systems and relational storage." },
+      { "name": "Web Development", "icon": "🌐", "description": "Building and deploying web-based applications." },
+      { "name": "React.js", "icon": "⚛️", "description": "Frontend UI development using component-based architecture." },
+      { "name": "HTML", "icon": "📄", "description": "Building structured webpage layouts." },
+      { "name": "CSS", "icon": "🎨", "description": "Styling and visual UI design for web applications." },
+      { "name": "Cloud Computing", "icon": "☁️", "description": "Understanding of cloud environments and distributed computing." }
+  ],
     "soft": [
-      { "name": "Problem Solving", "icon": "🎯", "description": "Breaking down complex problems into manageable solutions with analytical thinking and creative approaches." },
-      { "name": "Team Collaboration", "icon": "🤝", "description": "Working effectively in cross-functional teams, communicating clearly, and contributing to shared goals." },
-      { "name": "Quick Learning", "icon": "📚", "description": "Rapidly adapting to new technologies and frameworks with self-directed learning and hands-on experimentation." },
-      { "name": "Analytical Thinking", "icon": "🔍", "description": "Analyzing requirements, identifying patterns, and making data-driven decisions for optimal solutions." },
-      { "name": "Communication", "icon": "💬", "description": "Articulating technical concepts clearly to both technical and non-technical stakeholders for effective collaboration." }
+      { "name": "Data Structures & Algorithms", "icon": "🧩", "description": "Efficient problem-solving using optimized logic and structures." },
+      { "name": "OOPS Concepts", "icon": "🏛️", "description": "Object-oriented design principles and abstraction." },
+      { "name": "Operating Systems", "icon": "💾", "description": "Understanding of process management and system-level operations." },
+      { "name": "Problem Solving", "icon": "🎯", "description": "Logical and structured approach to debugging and implementation." },
+      { "name": "Unit Testing (Pytest, Unittest)", "icon": "🧪", "description": "Testing workflows to ensure reliability and accuracy of code." }
     ]
   },
   "experience": [
     {
       "id": 1,
-      "title": "Founding Engineer",
-      "company": "cactus.ai",
+      "title": "LLM Python Engineer",
+      "company": "Turing Enterprises Inc.",
       "location": "Remote",
-      "startDate": "Jun 2024",
+      "startDate": "August 2024",
       "endDate": "Present",
       "current": true,
-      "description": "Architected comprehensive restaurant management platform with full-stack MERN implementation. Built advanced invoice extraction system using Gemini OCR for automated vendor data processing and ingredient mapping. Engineered recipe automation system by fetching POS menu data and implementing Gemini context caching to generate complete recipes with ingredients, quantities, and cooking instructions. Developed inventory management system with multi-unit conversions and automated ingredient tracking based on POS sales integration. Designed super admin panel for global tenant management and centralized restaurant data administration. Engineered robust backend APIs with Node.js and Express.js, implementing secure authentication and database operations. Created dynamic MongoDB collections with automated workflows and interactive dashboards for real-time financial metrics and profit analytics using React.js.",
-      "technologies": ["Node.js", "React.js", "MongoDB", "Express.js", "Gemini API", "Google Cloud Storage"],
+      "description": "Worked on improving the performance, reliability, and alignment of large language models (LLMs) through systematic evaluation, prompt refinement, and dataset preparation. Contributed to supervised fine-tuning (SFT) and reinforcement learning from human feedback (RLHF) workflows by analyzing model outputs, identifying weaknesses, and implementing feedback loops. Conducted Python-based unit testing to ensure robust integration across training components. Prepared structured training datasets for a GitHub Discussions based chatbot, rewriting questions, generating answer claims with supporting documentation, and maintaining quality standards across a multi-annotator pipeline.",
+      "technologies": ["Python", "Pandas", "NLTK", "PyTorch (SFT Fundamentals)", "Prompt Engineering", "LLM Evaluation", "GitHub"],
       "achievements": [
-        "Built comprehensive restaurant management platform serving multiple restaurants",
-        "Automated invoice processing reducing manual data entry by 90%",
-        "Implemented AI-powered recipe generation system",
-        "Developed inventory management with real-time tracking",
-        "Created super admin panel for multi-tenant management"
+        "Performed systematic evaluation of LLM outputs to assess accuracy, reasoning structure, and reliability",
+        "Designed and refined prompts to improve model relevance and response clarity",
+        "Conducted unit testing of Python workflow components during model evaluation",
+        "Prepared high-quality training datasets for GitHub Discussions chatbot fine-tuning",
+        "Reviewed and annotated repository-specific Q&A for clarity, correctness, and instructional value",
+        "Rewrote user queries and generated structured answer claims with supporting documentation",
+        "Collaborated in a multi-reviewer RLHF / SFT pipeline ensuring consensus-driven improvements"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Python Development Intern",
+      "company": "CodeClause",
+      "location": "Virtual",
+      "startDate": "Aug 2023",
+      "endDate": "Sep 2023",
+      "current": false,
+      "description": "Completed a one-month internship focused on Python-based GUI and multimedia application development. Developed a music player application featuring MP3 browsing, selection, and playback. Implemented event-driven programming logic, intuitive user controls, and file handling using Tkinter for the UI layer and Pygame for audio operations.",
+      "technologies": ["Python", "Tkinter", "Pygame", "File Handling", "Event-Driven Programming"],
+      "achievements": [
+        "Developed GUI-based music player with functional play/stop controls",
+        "Enhanced skills in event-driven programming and multimedia handling",
+        "Implemented clean user interface using Tkinter widgets",
+        "Demonstrated practical understanding of Python application architecture"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Machine Learning with Python Intern",
+      "company": "Campalin Innovations Pvt. Ltd.",
+      "location": "Virtual",
+      "startDate": "Jun 2023",
+      "endDate": "Jul 2023",
+      "current": false,
+      "description": "Completed two-month internship and training in machine learning with Python. Built a wine quality prediction system using data preprocessing, feature correlation analysis, and regression-based modeling. Worked with real-world dataset insights and evaluation metrics to determine the impact of chemical properties on wine quality.",
+      "technologies": ["Python", "Pandas", "NumPy", "Scikit-learn", "Matplotlib"],
+      "achievements": [
+        "Developed predictive ML model to analyze and estimate wine quality",
+        "Performed dataset cleaning, transformation, and correlation visualization",
+        "Implemented regression model evaluation for accuracy and reliability",
+        "Demonstrated end-to-end ML workflow from data analysis to model testing"
       ]
     }
   ],
   "projects": [
     {
       "id": 1,
-      "title": "Advanced Invoice Extraction System",
-      "shortDescription": "AI-powered invoice processing system for restaurant supply chain automation",
-      "description": "Built comprehensive invoice processing system using Node.js and Gemini OCR for restaurant supply chain automation. Implemented vendor-specific parsing rules with dynamic MongoDB collections and ingredient mapping algorithms. Created context caching system with Gemini API for optimized data extraction and automated JSON output processing. Developed column mapping system for various vendor formats, reducing manual data entry by 90%.",
-      "technologies": ["Node.js", "MongoDB", "Gemini API", "Express.js", "OCR Processing"],
-      "category": "AI/Backend",
+      "title": "EasyMed - Online Healthcare Portal",
+      "shortDescription": "Machine learning-based disease prediction system for proactive healthcare.",
+      "description": "Developed a healthcare portal that uses machine learning algorithms to predict diseases in advance. The system includes three major modules: Symptoms-Based Disease Prediction, Diabetes Prediction, and Heart Disease Prediction. Implemented data preprocessing, model training, and evaluation using Pandas and Scikit-learn. Designed a user-friendly Python interface to allow users to input medical parameters and receive prediction results. This project demonstrates the practical use of machine learning for early disease detection and healthcare decision support.",
+      "technologies": ["Python", "Pandas", "Scikit-learn", "Matplotlib"],
+      "category": "Machine Learning",
       "featured": true,
-      "image": "/images/projects/invoice-system.jpg",
+      "image": "/images/projects/easymed.jpg",
       "liveUrl": "#",
-      "githubUrl": "#",
+      "githubUrl": "https://github.com/Shambhavi-2713/EasyMed-OnlineHealthcarePortal",
       "features": [
-        "Vendor-specific invoice parsing",
-        "Automated ingredient mapping",
-        "Context caching with Gemini API",
-        "Dynamic MongoDB collections",
-        "90% reduction in manual data entry"
+        "Symptoms-based disease prediction",
+        "Diabetes and heart disease risk analysis",
+        "Machine learning model training and evaluation",
+        "User-friendly Python UI for input and results",
+        "Supports proactive healthcare decisions"
       ]
     },
     {
       "id": 2,
-      "title": "AI-Powered Video Generation System",
-      "shortDescription": "Sophisticated prompt generation system for Veo3 video creation",
-      "description": "Engineered sophisticated prompt generation system for Veo3 video creation using advanced prompts. Integrated Gemini API for automated content transformation and JSON output processing. Built dynamic video generation workflows for product visualizations and marketing content, achieving 85% automation in content creation pipeline.",
-      "technologies": ["JavaScript", "Node.js", "Gemini API", "Veo3", "AI Prompting"],
-      "category": "AI/Frontend",
+      "title": "URL Text Analyzer",
+      "shortDescription": "Automated text extraction and sentiment analysis from web pages.",
+      "description": "Developed a text analysis system that extracts article content directly from URLs. Implemented HTML parsing with BeautifulSoup, text cleaning and tokenization using NLTK, and sentiment scoring for understanding tone. Results are stored in a structured Excel file along with readability scores, word metrics, and sentiment polarity. This project demonstrates skills in data extraction, natural language processing, and automated reporting.",
+      "technologies": ["Python", "requests", "BeautifulSoup", "NLTK", "pandas", "openpyxl"],
+      "category": "NLP / Data Processing",
       "featured": true,
-      "image": "/images/projects/video-generation.jpg",
+      "image": "/images/projects/url-analyzer.jpg",
       "liveUrl": "#",
-      "githubUrl": "#",
+      "githubUrl": "https://github.com/Shambhavi-2713/URL-Text-Analyzer",
       "features": [
-        "Advanced AI prompt engineering",
-        "Automated content transformation",
-        "Video generation workflows",
-        "Product visualization system",
-        "85% automation achievement"
+        "HTML content scraping and parsing",
+        "Sentiment and readability analysis",
+        "Tokenization and stop-word removal",
+        "Excel export with structured metrics",
+        "End-to-end automated workflow"
       ]
     },
     {
       "id": 3,
-      "title": "Restaurant Management Dashboard",
-      "shortDescription": "Comprehensive MERN stack application for restaurant operations",
-      "description": "Developed comprehensive MERN stack application for restaurant operations management. Implemented real-time analytics for food costs, menu pricing, and profit tracking. Built secure authentication system with role-based access control. Created responsive frontend with React.js and robust backend APIs with Express.js and MongoDB.",
-      "technologies": ["MongoDB", "Express.js", "React.js", "Node.js", "JWT", "Chart.js"],
-      "category": "Full Stack",
-      "featured": true,
-      "image": "/images/projects/restaurant-dashboard.jpg",
+      "title": "Wine Quality Prediction System",
+      "shortDescription": "Machine learning model to predict wine quality from chemical properties.",
+      "description": "Built a predictive model to classify wine quality based on acidity, pH, alcohol content, and other measurable characteristics. Performed dataset loading, preprocessing, visualization, and feature correlation analysis. Trained and evaluated ML models using Scikit-learn, with RandomForestClassifier providing optimal performance. This project highlights the use of machine learning for improving product evaluation and quality control.",
+      "technologies": ["Python", "Pandas", "Scikit-learn", "Matplotlib"],
+      "category": "Machine Learning",
+      "featured": false,
+      "image": "/images/projects/wine-quality.jpg",
       "liveUrl": "#",
-      "githubUrl": "#",
+      "githubUrl": "https://github.com/Shambhavi-2713/Wine-Quality",
       "features": [
-        "Real-time analytics dashboard",
-        "Food cost tracking",
-        "Menu pricing optimization",
-        "Role-based authentication",
-        "Responsive design"
+        "Feature correlation and data visualization",
+        "RandomForest model training and evaluation",
+        "Chemical property-based prediction",
+        "Data preprocessing and quality scoring",
+        "Supports decision-making in wine selection"
       ]
     },
     {
       "id": 4,
-      "title": "Voice-Controlled AI Chatbot",
-      "shortDescription": "Interactive chatbot with Gemini AI integration and voice features",
-      "description": "Developed interactive chatbot using vanilla JavaScript with Gemini AI API integration. Implemented speech-to-text functionality and text-to-speech output with dark mode toggle. Created auto-resizing interface with dynamic API response handling for seamless user experience.",
-      "technologies": ["JavaScript", "HTML5", "CSS3", "Gemini API", "Web Speech API"],
-      "category": "AI/Frontend",
+      "title": "Music Player",
+      "shortDescription": "GUI-based MP3 music player built using Python.",
+      "description": "Developed a music player application with an intuitive user interface using Tkinter and Pygame. Users can browse, load, play, and stop MP3 files with ease. Demonstrated event-driven programming, file handling, audio playback control, and UI layout management. Highlights proficiency in building desktop applications and understanding GUI frameworks.",
+      "technologies": ["Python", "Tkinter", "Pygame"],
+      "category": "Software / GUI Application",
       "featured": false,
-      "image": "/images/projects/ai-chatbot.jpg",
+      "image": "/images/projects/music-player.jpg",
       "liveUrl": "#",
-      "githubUrl": "#",
+      "githubUrl": "https://github.com/Shambhavi-2713/Music-Player",
       "features": [
-        "Voice recognition integration",
-        "Text-to-speech output",
-        "Dark mode support",
-        "Auto-resizing interface",
-        "Real-time AI responses"
+        "MP3 file browsing and selection",
+        "Play and stop audio playback",
+        "Event-driven UI implementation",
+        "Smooth user interaction flow",
+        "Desktop GUI application"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Attendance System",
+      "shortDescription": "Web-based attendance tracker built with React.js.",
+      "description": "Built a web application that allows students to mark attendance through a clean and responsive UI. Implemented dynamic attendance state updates using React components and Bootstrap for layout styling. Demonstrated component-based UI architecture, state management, and modular code organization. Version control and commits maintained via GitHub.",
+      "technologies": ["React.js", "JavaScript", "Bootstrap"],
+      "category": "Frontend / Web Application",
+      "featured": false,
+      "image": "/images/projects/attendance-system.jpg",
+      "liveUrl": "#",
+      "githubUrl": "https://github.com/Shambhavi-2713/Attendance-System",
+      "features": [
+        "Student-wise attendance marking",
+        "Dynamic UI with live updates",
+        "Responsive design using Bootstrap",
+        "Component-based frontend architecture",
+        "GitHub-based collaborative versioning"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Vehicle Transport Converter",
+      "shortDescription": "Travel time and fuel consumption calculator.",
+      "description": "Created a web application to calculate travel time and fuel usage for different vehicles based on user input distance. Implemented dropdown vehicle selection, dynamic calculations, and result display with vehicle image rendering. Demonstrates JavaScript logic implementation and clean UI design.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "category": "Web Application",
+      "featured": false,
+      "image": "/images/projects/vehicle-converter.jpg",
+      "liveUrl": "#",
+      "githubUrl": "https://github.com/Shambhavi-2713/Vehicle-Transport-Converter",
+      "features": [
+        "Distance input and vehicle selection",
+        "Fuel & time calculation engine",
+        "Responsive and interactive UI",
+        "Vehicle image rendering",
+        "Pure JavaScript implementation"
       ]
     }
   ],
@@ -169,28 +240,44 @@
       "institution": "SRM Institute of Science and Technology, Delhi NCR Campus",
       "startDate": "Sep 2020",
       "endDate": "Jul 2024",
-      "cgpa": "8.15",
-      "description": "Focused on software engineering, data structures, algorithms, and web development."
+      "cgpa": "8.56 / 10",
+      "description": "Focused on data structures, algorithms, machine learning, LLM evaluation workflows, web development, and software engineering fundamentals."
+    },
+    {
+      "degree": "Class XII (Science - PCM)",
+      "institution": "Sunbeam English School, Varanasi",
+      "startDate": "2019",
+      "endDate": "2020",
+      "cgpa": "73.40%",
+      "description": "Studied Physics, Chemistry, and Mathematics with emphasis on analytical reasoning and problem-solving."
+    },
+    {
+      "degree": "Class X (ICSE)",
+      "institution": "Bishop Westcott Girls’ School, Ranchi",
+      "startDate": "2017",
+      "endDate": "2018",
+      "cgpa": "83.17%",
+      "description": "Completed foundational academic education with strong performance and active school participation."
     }
   ],
   "certifications": [
     {
-      "title": "Introduction to Front-End Development by Meta",
-      "issuer": "Coursera",
+      "title": "Database Management System",
+      "issuer": "NPTEL",
       "date": "Dec 2023",
       "credential": "#"
     },
     {
-      "title": "Programming with JavaScript by Meta", 
-      "issuer": "Coursera",
+      "title": "Cloud Computing & Distributed Systems",
+      "issuer": "NPTEL",
       "date": "Nov 2023",
       "credential": "#"
     }
   ],
   "achievements": [
     {
-      "title": "Hackathon Winner - IIT Patna",
-      "description": "Developed Chrome extension with AI-powered text summarization and code explanation features using Gemini API. Implemented voice functionality for content reading and instant webpage text analysis.",
+      "title": "H",
+      "description": "D",
       "date": "2024"
     }
   ]
